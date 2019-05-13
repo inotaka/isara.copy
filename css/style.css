@@ -15,6 +15,7 @@
 
 
 .l-body {
+  margin: 0;
   list-style: none;
 }
 
@@ -153,6 +154,8 @@
   /* font-size: 5.5vw; */
 }
 .p-info__txt--deadline {
+  padding-left: 0;
+  list-style: none;
   color: #FFF;
   text-align: center;
 }
@@ -169,6 +172,8 @@
   display: flex;
   justify-content: center;
   margin: 25px auto 0;
+  padding-left: 0;
+  list-style: none;
 }
 #twitter-widget-0 {
   margin-right: 5px;
@@ -238,7 +243,7 @@
   position: absolute;
   left: 43%;
   bottom: -30px;
-  padding: 20px 5px;
+  /* padding: 20px 5px; */
   background-color: #EBB94D;
   color: #FFF;
   border-radius: 50%;
@@ -301,6 +306,8 @@
   justify-content: center;
   width: 80%;
   margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
 }
 .p-description__inner--txtTtl {
   margin-bottom: 20px;
@@ -342,6 +349,10 @@
 }
 .p-advanceStep__txt--knowledge--span {
   color: #DCAE49;
+}
+.p-advanceStep__list {
+  padding-left: 0;
+  list-style: none;
 }
 .p-advanceStep__list > li {
   width: 70%;
@@ -400,6 +411,8 @@ font-weight: bold;
 .p-learn__skill {
   display: flex;
   justify-content: center;
+  padding-left: 0;
+  list-style: none;
 }
 .p-learn__skill > li {
   margin-left: 10px;
@@ -456,6 +469,10 @@ font-weight: bold;
   font-weight: bold;
   font-size: 18px;
   /* font-size: 4.8vw; */
+}
+.p-merit__list {
+  padding-left: 0;
+  list-style: none;
 }
 .p-merit__list > li {
   padding: 5px 20px 10px;
@@ -524,6 +541,10 @@ font-weight: bold;
   margin-top: 30px;
   font-size: 13px;
   /* font-size: 3.5vw; */
+}
+.p-schoolMember__profile {
+  padding-left: 0;
+  list-style: none;
 }
 .p-schoolMember__profile > li {
   border: 3px solid #FFF;
@@ -626,6 +647,9 @@ font-weight: bold;
 .p-answerTop {
   padding: 30px 0;
 }
+.p-answer__inner {
+  padding-left: 0;
+}
 .p-answerTop__ttl {
   font-weight: bold;
   font-size: 20px;
@@ -711,11 +735,15 @@ font-weight: bold;
 .p-learnContents__center-left {
   border: 2px solid #016EA9;
   border-radius: 5px;
+  padding-left: 0;
+  list-style: none;
 }
 .p-learnContents__center-right {
   margin-top: 20px;
   border: 2px solid #016EA9;
   border-radius: 5px;
+  padding-left: 0;
+  list-style: none;
 }
 .p-learnContents__center-left > li:last-child,
 .p-learnContents__center-right > li:last-child {
@@ -764,6 +792,10 @@ font-weight: bold;
 }
 .p-attending__ttl--img {
   display: none;
+}
+.p-attending__contents-list {
+  padding-left: 0;
+  list-style: none;
 }
 .p-attending__contents-list > li {
   width: 86%;
@@ -853,6 +885,10 @@ font-weight: bold;
   font-size: 12px;
   /* font-size: 3.4vw; */
 }
+.p-place__merit-list {
+  padding-left: 0;
+  list-style: none;
+}
 .p-place__merit-list > li {
   margin-top: 20px;
   font-size: 13px;
@@ -892,6 +928,7 @@ font-weight: bold;
   padding: 20px 40px 60px;
   margin: 70px auto 0;
   border: 2px solid #FFF;
+  list-style: none;
 }
 .p-benefit__merit-listTop {
   width: 210px;
@@ -1025,6 +1062,8 @@ font-weight: bold;
 }
 .p-messageBottom__list {
   margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
 }
 .p-messageBottom__list > li {
   font-size: 15.5px;
@@ -1109,6 +1148,10 @@ textarea::-webkit-input-placeholder {
   font-size: 19px;
   /* font-size: 5vw; */
 }
+.p-lastQuestion__list {
+  padding-left: 0;
+  list-style: none;
+}
 .p-lastQuestion__list > li {
   position: relative;
   width: 80%;
@@ -1189,6 +1232,8 @@ textarea::-webkit-input-placeholder {
   display: flex;
   justify-content: center;
   margin: 15px 0 25px;
+  padding-left: 0;
+  list-style: none;
 }
 .p-copyRight--span {
   color: #6A9CC7;
@@ -1226,6 +1271,7 @@ br-sp */
 
 
 .l-body {
+  margin: 0;
   list-style: none;
 }
 
@@ -1267,7 +1313,9 @@ br-sp */
   color: #FFF;
   text-decoration: none;
 }
-
+.c-header__right-txt--pc {
+  margin: 0;
+}
 .c-header__right {
   display: none;
 }
@@ -1342,6 +1390,7 @@ br-sp */
   margin-top: 70px;
   color: #FFF;
   text-align: center;
+  list-style: none;
 }
 .p-info__txt--deadline > li {
   margin-top: 25px;
@@ -1355,6 +1404,7 @@ br-sp */
   display: flex;
   justify-content: center;
   margin: 25px auto 0;
+  list-style: none;
 }
 #twitter-widget-0 {
   margin-right: 5px;
@@ -1491,6 +1541,8 @@ br-sp */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-left: 0;
+  list-style: none;
 }
 .p-description__inner--txtTtl {
   margin-bottom: 30px;
@@ -1538,6 +1590,8 @@ br-sp */
 .p-advanceStep__list {
   display: flex;
   justify-content: center;
+  padding-left: 0;
+  list-style: none;
 }
 .p-advanceStep__list > li {
   width: 300px;
@@ -1596,6 +1650,8 @@ font-size: 28px;
 .p-learn__skill {
   display: flex;
   justify-content: center;
+  padding-left: 0;
+  list-style: none;
 }
 .p-learn__skill > li {
   margin-left: 30px;
@@ -1668,6 +1724,8 @@ font-size: 28px;
   display: flex;
   justify-content: center;
   margin: 40px 0;
+  padding-left: 0;
+  list-style: none;
 }
 .p-merit__list > li {
   padding: 5px 15px 10px;
@@ -1741,6 +1799,8 @@ font-size: 28px;
   flex-wrap: wrap;
   width: 78%;
   margin: auto;
+  padding-left: 0;
+  list-style: none;
 }
 .p-schoolMember__profile > li {
   border: 3px solid #FFF;
@@ -1918,6 +1978,8 @@ font-size: 28px;
   border: 2px solid #016EA9;
   border-radius: 5px;
   width: 30%;
+  padding-left: 0;
+  list-style: none;
 }
 .p-learnContents__center-right {
   margin-left: 30px;
@@ -1925,6 +1987,8 @@ font-size: 28px;
   border-radius: 5px;
   width: 30%;
   height: 308px;
+  padding-left: 0;
+  list-style: none;
 }
 .p-learnContents__center-left > li:last-child,
 .p-learnContents__center-right > li:last-child {
@@ -2045,6 +2109,10 @@ font-size: 28px;
 .p-place__ttl--txt {
   margin-top: 20px;
 }
+.p-place__merit-list {
+  padding-left: 0;
+  list-style: none;
+}
 .p-place__merit-list > li {
   margin-top: 20px;
   font-weight: bold;
@@ -2082,6 +2150,7 @@ font-size: 28px;
   padding: 35px 40px 50px;
   margin: 130px auto 0;
   border: 2px solid #FFF;
+  list-style: none;
 }
 .p-benefit__merit-listTop {
   position: absolute;
@@ -2111,7 +2180,7 @@ font-size: 28px;
   color: #F7C23C;
 }
 .p-benefit__merit-list--ttl-pc {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .p-benefit__merit-list--txt-pc {
   margin-top: 10px;
@@ -2211,6 +2280,8 @@ font-size: 28px;
 }
 .p-messageBottom__list {
   margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
 }
 .p-messageBottom__txt {
   margin-top: 20px;
@@ -2289,6 +2360,10 @@ font-size: 28px;
   text-align: center;
   font-weight: bold;
   font-size: 30px;
+}
+.p-lastQuestion__list {
+  padding-left: 0;
+  list-style: none;
 }
 .p-lastQuestion__list > li {
   position: relative;
@@ -2372,6 +2447,8 @@ font-size: 28px;
   display: flex;
   justify-content: center;
   margin: 15px 0 25px;
+  padding-left: 0;
+  list-style: none;
 }
 .p-copyRight--span {
   color: #6A9CC7;
